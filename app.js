@@ -6,10 +6,14 @@ const concatenatedString = "My favorite kpop idol is " + firstName + " " + lastN
 
 console.log(concatenatedString);
 
-const height = "6 feet";
+const grade = 75;
 
-if (height >= "6 feet") {
-  console.log("You are tall.");
+if (grade >= 90) {
+  console.log("A");
+} else if (grade >= 80) {
+  console.log("B");
+} else if (grade >= 70) {
+  console.log("C");
 } else {
-  console.log("You are not tall.");
+  console.log("F");
 }
