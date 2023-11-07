@@ -51,3 +51,9 @@ console.log(`Today is ${dayName}.`);
 
 const text = "Stray Kids everywhere all around the world"; // string method/To Uppercase
 const upper = text.toUpperCase();
+
+console.log(upper);
+
+const value = 143; // number method
+const isFiniteValue = isFinite(value);
+console.log(isFiniteValue);
