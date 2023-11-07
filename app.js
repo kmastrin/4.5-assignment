@@ -1,4 +1,4 @@
-const firstName = "Hyunjin";
+const firstName = "Hyunjin"; // concatenated string variable
 const lastName = "Hwang";
 const age = 23;
 
@@ -6,7 +6,7 @@ const concatenatedString = "My favorite kpop idol is " + firstName + " " + lastN
 
 console.log(concatenatedString);
 
-const grade = 75;
+const grade = 75; // "if" conditional statement
 
 if (grade >= 90) {
   console.log("A");
@@ -18,7 +18,7 @@ if (grade >= 90) {
   console.log("F");
 }
 
-const dayOfWeek = 3;
+const dayOfWeek = 3; // switch statement
 let dayName;
 
 switch (dayOfWeek) {
@@ -48,3 +48,6 @@ switch (dayOfWeek) {
 }
 
 console.log(`Today is ${dayName}.`);
+
+const text = "Stray Kids everywhere all around the world"; // string method/To Uppercase
+const upper = text.toUpperCase();
